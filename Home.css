@@ -1,0 +1,114 @@
+*{
+    width : 100%;
+    padding : 0px;
+    margin:0%;
+}
+/* START OF HEADING */
+.head-item{
+    width : 100%;
+    height : 0%;
+    overflow: hidden;
+    padding-top : 100px;
+    position: relative;
+}
+.head-item img {
+    height: 100%;
+    width : 100%;
+    top : 0%;
+    object-fit: cover;
+    position: absolute;
+}
+.heading{
+   display : flex;
+   flex-flow: row ;
+   width : 100%;
+}
+.head-item{
+    flex : 0 1 33%;
+    flex-flow : row wrap;
+    margin-left: 15px;
+    box-shadow: 1px 1px 8px lightgray;
+}
+#one{
+    object-position: 50% 5%;
+}
+/*END OF HEADING8*/
+.part1{
+    width: 100%;
+    
+    margin-top: 30px;
+    padding: 10px;
+}
+.jersey{
+     width : 100%;
+    height : 0%;
+    overflow: hidden;
+    padding-top : 300px;
+    position: relative;
+  
+    
+}
+.jersey img{
+    height: 100%;
+    width : 100%;
+    top : 0%;
+    object-fit: contain;
+    position: absolute;
+}
+
+
+table{
+    
+    height: 50%;
+}
+tr,td{
+    width: 100px;
+    height: 0px;
+    text-transform: uppercase;
+    font-family: times new roman;
+    border-bottom: 2px ridge lightblue;
+}
+.part1{
+width : 100%;
+height : 300px;
+overflow: scroll;
+background-color: white;
+    display: flex;
+}
+.jersey{
+  margin-right: 20px;
+  border-radius: 30px;
+ border: 3px dashed lightblue;
+ flex : 1 0 100%;   
+}
+.part2{
+    width: 50%;
+    display: flex;
+    flex-flow: row ;
+   
+}
+.x{
+    height : 50px;
+    width: 100px;
+    padding-top: 25px;
+    text-align: center;
+    flex : 0 1 25%;
+    margin-left: 5px;
+    border:1px solid lightblue;
+    box-shadow: 1px 1px 8px lightgray;
+    
+}
+.x:hover{
+    background-color: lightblue; 
+    color: white;
+}
+.y{
+    width : 100%;
+    text-align: left;
+}
+.z h1{
+    color: orangered;
+}
+.z h3{
+    color : green;
+}
